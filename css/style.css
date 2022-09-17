@@ -298,3 +298,41 @@ div.app-information p {
     font-weight: 400;
     text-align: right;
 }
+
+section.showcase-applications {
+    width: 100%;
+    height: 280px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 16px;
+}
+
+section.showcase-applications div.apps {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    overflow: scroll;
+}
+
+div.showcase-app {
+    /* border: 1px solid salmon; */
+    margin: 10px 5px 10px 5px;
+    height: 210px;
+    width: 400px;
+    min-width: 400px;
+    border-radius: 10px;
+}
+
+div.showcase-app a {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* border: 1px solid slateblue; */
+}
+
+div.showcase-app a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

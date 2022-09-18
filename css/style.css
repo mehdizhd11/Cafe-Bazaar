@@ -395,3 +395,55 @@ div.subject p {
     color: #2a2a2a;
     line-height: 24px;
 }
+
+section.bazaar-desc {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 16px;
+    padding: 1rem;
+    padding-bottom: 0.1rem !important;
+}
+
+section.bazaar-desc p {
+    color: #6b6b6b;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: normal;
+    word-spacing: 1px;
+    margin: 0 0 32px;
+    padding: 0;
+    text-align: right !important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p.before-btn {
+    margin: 0 0 0 !important;
+}
+
+section.bazaar-desc p strong {
+    color: #212529;
+    font-size: 18px;
+}
+
+button.desc-btn {
+    width: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: calc(50% - 5px);
+    margin-right: calc(50% - 5px);
+}
+
+div.more-desc {
+    display: none;
+}
+
+.show {
+    display: block !important;
+    margin-top: 20px;
+}

@@ -56,13 +56,23 @@ a.bazaar-logo img {
     height: 100%;
 }
 
+button.header-menu-burger {
+    height: 36px;
+    width: 36px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background: #fafafa;
+    border: none;
+    display: none;
+}
+
 ul.header-menu {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 36px;
     width: 300px;
-    margin-right: 20px;
+    margin-right: -10px;
 }
 
 ul.header-menu li {
@@ -87,12 +97,48 @@ ul.header-menu li a {
 
 ul.header-menu li button:hover,
 ul.header-menu li a:hover {
-    color: #0DA05B;
+    color: #0ea960;
 }
 
 ul.header-menu li button {
     background-color: #FFFFFF;
     border: none;
+}
+
+ul.burger-menu {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 16px;
+    padding: 5px 25px 15px 25px;
+    transition: all .4s;
+    display: none;
+}
+
+ul.burger-menu li {
+    /* border: 1px solid royalblue; */
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+ul.burger-menu li:first-of-type {
+    border-bottom: 2px solid #0ea960 !important;
+}
+
+ul.burger-menu li a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6b6b6b;
+    font-weight: 400;
+}
+
+ul.burger-menu li a:hover {
+    color: #0ea960;
 }
 
 div.search-input {
@@ -142,7 +188,7 @@ div.search-input:focus-within {
 }
 
 a.account-link {
-    width: 36px;
+    width: 48px;
     height: 48px;
     display: flex;
     justify-content: center;
@@ -188,7 +234,6 @@ button.change-lang:hover {
 
 main {
     margin: 74px 130px 16px 130px;
-    z-index: 5;
 }
 
 section.programs {

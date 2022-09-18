@@ -1,0 +1,153 @@
+@media (max-width: 1199px) {
+    header {
+        padding: 0 80px 0 80px;
+    }
+
+    main {
+        margin: 74px 80px 16px 80px;
+    }
+
+    footer {
+        padding: 60px 80px;
+    }
+
+    nav.footer-nav {
+        padding: 0 80px;
+    }
+
+    ul.header-menu {
+        margin-right: -20px !important;
+    }
+}
+
+@media (max-width: 1099px) {
+    header {
+        padding: 0 30px 0 30px;
+    }
+
+    main {
+        margin: 74px 30px 16px 30px;
+    }
+
+    footer {
+        padding: 60px 30px;
+    }
+
+    nav.footer-nav {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    ul.header-menu {
+        display: none;
+    }
+
+    a.bazaar-logo {
+        display: none;
+    }
+
+    button.header-menu-burger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.search-input {
+        width: 100%;
+    }
+
+    .show-menu {
+        display: block !important;
+    }
+}
+
+@media (max-width: 819px) {
+    footer {
+        display: none;
+    }
+
+    nav.footer-nav p {
+        word-spacing: 1px;
+        font-size: 10px;
+    }
+
+    nav.footer-nav ul li {
+        margin:  0 10px;
+    }
+
+    nav.footer-nav ul li a i {
+        font-size: 16px;
+    }
+
+    section.applications-groups {
+        height: 230px;
+    }
+
+    div.apps-groups {
+        height: 60px;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 649px) {
+    header {
+        padding: 0 10px 0 10px;
+    }
+
+    main {
+        margin: 74px 10px 16px 10px;
+    }
+
+    footer {
+        padding: 60px 10px;
+    }
+
+    nav.footer-nav {
+        padding: 0 10px;
+    }
+
+    section.applications-groups {
+        height: 385px;
+    }
+
+    div.apps-groups {
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 589px) {
+    nav.footer-nav {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    section.bazaar-desc p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    section.bazaar-desc p strong {
+        font-size: 14px;
+    }
+
+    a.pre-install {
+        display: none;
+    }
+}
+
+@media (max-width: 471px) {
+    div.app {
+        min-width: 100px;
+    }
+
+    div.showcase-app {
+        min-width: 320px;
+    }
+
+    nav.footer-nav {
+        display: none;
+    }
+}

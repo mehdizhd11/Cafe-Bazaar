@@ -14,3 +14,12 @@ function btnShow() {
         down = false;
     }
 }
+
+function showMenu() {
+    var menu = document.getElementById("menu");
+    if (menu.className === "burger-menu") {
+        menu.className += " show-menu";
+    } else {
+        menu.className = "burger-menu";
+    }
+}
